@@ -1,11 +1,11 @@
 package com.space.warrior.saiyan;
 
 public class Saiyan {
-    protected int force;
-    protected int vitesse;
-    protected String cheveux;
+    private int force;
+    private int vitesse;
+    private String cheveux;
 
-    protected boolean canFly;
+    private boolean canFly;
 
     public Saiyan(int force, int vitesse) {
         this.force = force;
@@ -19,8 +19,8 @@ public class Saiyan {
     }
 
     public void displayStatus() {
-        System.out.println("La vitesse finale du com.space.warrior.saiyan.Saiyan est de "+getVitesse());
-        System.out.println("La couleur de cheveux du com.space.warrior.saiyan.Saiyan est de "+getCheveux());
+        System.out.println("La vitesse finale du Saiyan est de "+getVitesse());
+        System.out.println("La couleur de cheveux du Saiyan est de "+getCheveux());
     }
 
     public int getForce() {

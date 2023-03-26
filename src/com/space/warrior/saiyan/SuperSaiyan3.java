@@ -8,6 +8,6 @@ public class SuperSaiyan3 extends SuperSaiyan {
     @Override
     public void augmenterForce(int force) {
         super.augmenterForce(force);
-        this.vitesse += force;
+        this.setVitesse(this.getVitesse()+force);
     }
 }
